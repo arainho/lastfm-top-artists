@@ -58,5 +58,18 @@ docs/_build/
 # PyBuilder
 target/
 
-#Ipython Notebook
+# Ipython Notebook
 .ipynb_checkpoints
+
+# Private config files
+config/settings.json
+drafts/config/settings.yaml
+
+# OpenShift files
+.openshift
+setup.py
+wsgi.py
+
+# Other stuff
+drafts
+draftss
