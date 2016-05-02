@@ -1,0 +1,5 @@
+{
+  "USER": "your_lasfm_user",
+  "API_KEY": "your_lastfm_api_key",
+  "API_ROOT_URL": "http://ws.audioscrobbler.com/2.0/"
+}
