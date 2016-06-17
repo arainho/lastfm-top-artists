@@ -65,7 +65,7 @@ for topartists in my_data:
   for artist, value in my_data[topartists].iteritems():
     my_list = my_data[topartists][artist]
     for my_dict in my_list:
-        if type(my_dict) is dict:
+        if isinstance(my_dict, dict):
             # print the values
             #print my_dict['@attr']['rank'], my_dict['name'], my_dict['playcount'], my_dict['url']
 
